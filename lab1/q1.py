@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def model_generator(n, m):
     """_summary_
 
@@ -50,8 +51,9 @@ def sign_sample(A: np.ndarray, Q: int):
     return x, y
 
 
-if __name__ == "__main__":
-    n = 10
-    x1 = np.random.randn(10) * np.sqrt(1/2)
-    x2 = np.random.normal(np.zeros((2, n)), np.sqrt(1/2/n))
-    print(x1, x2)
+# if __name__ == "__main__":
+#     a
+#     n = 10
+#     x1 = np.random.randn(10) * np.sqrt(1/2)
+#     x2 = np.random.normal(np.zeros((2, n)), np.sqrt(1/2/n))
+#     print(x1, x2)
